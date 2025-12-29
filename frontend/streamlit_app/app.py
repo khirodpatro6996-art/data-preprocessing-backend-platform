@@ -4,7 +4,7 @@ import requests
 # =====================
 # CONFIG
 # =====================
-BACKEND_BASE_URL = "http://127.0.0.1:8000"
+BACKEND_BASE_URL = "https://data-preprocessing-backend-platform.onrender.com"
 PREPROCESS_URL = f"{BACKEND_BASE_URL}/api/preprocess"
 DOWNLOAD_URL = f"{BACKEND_BASE_URL}/api/download/cleaned"
 
